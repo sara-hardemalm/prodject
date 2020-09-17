@@ -1,0 +1,137 @@
+.container {
+    display:flex;
+    flex-wrap: wrap;  /* flex-wrap gör att när en hemsida blir mindre så ändrar flexboxen postion*/
+    justify-content: center;
+    height: auto;
+ /*  background-color: black 50% , red 50%;
+    width: 1200px;
+    margin:0px 185px;*/
+}  
+/*för div elementet med allting i sig.*/
+.box-2colors{
+    margin:0px;
+    background:linear-gradient(to bottom, #A8A19E 50%, #f9b10b 50%);
+}
+
+
+/*box 1, white*/
+div.papper{
+    background-color:white;
+    width:180px ;
+    min-height:300px ;
+    margin:35px 10px ;
+    border-radius: 10px;
+    box-shadow: 0 3px 3px 0 #353434;
+}
+/*box 2 */
+.flexbox-box2 {
+    margin:0px 10% 0px;
+    width:140px;
+    height:130px;
+    border-radius: 10px;
+    justify-content: center;
+    object-fit: cover; /* cover and hidden passar bra. men bilden är i den fulla storleken*/
+    overflow:hidden;
+}
+
+/*alla 3 bild boxarna. child,adult,old*/
+.child{
+    background-color:#c6dde9;
+}
+
+.adult{
+    background-color:#f9b131;
+}
+
+.old{
+
+    background-color:#f07949;
+}
+/*slutet av alla 3 bild boxarna. child,adult,old*/
+
+/*övrigt på sidan*/
+.button {
+    background-color:white;
+    border:non;
+    color:black;
+    padding:15px 35px;
+    text-align:center;
+    text-decoration:none;
+    font-size:10px;
+    line-height:5px;
+    font-family: cursive; /*Yu Gothic UI Semibold font*/
+    display:inline-block;
+    font-size:16px;
+    margin:4px 2px;
+    box-shadow:0 3px lightgrey;
+    border-radius: 25px;
+}
+
+/* ---*/
+.flexbox-container-1{
+    align-items: baseline;/*align-self: flex-start; idk om den behövs. kontrolera det!*/
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    
+
+}
+.flexbox-container-2{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    
+}
+
+.flexbox-item {
+    margin: 50px 20px 7px 20px;
+
+}
+.flexbox-headline-1 {  /* första headline på dubble färg delen*/
+    width:250px;
+    text-align: left;
+    color:white;
+}
+.flexbox-headline-2 { /* andra headline på dubble färg delen"*/
+    text-align: center;
+    color:white;
+}
+.flexbox-text-1 { /*första texten på dubble färg delen*/
+   width:270px;
+   text-align:left;
+   font-size:13px;
+   font-family:cursive; /*fix font family*/
+   color:#242424;
+
+}
+.flexbox-text-2 { /*andra texten på dubble färg delen*/
+    margin:10px 0 50px 0 0;
+    width:500px;
+    text-align:center;
+    justify-content: center;
+    font-size:13px bold;
+    font-family:cursive; /*fix font family*/
+    color:#242424;
+ 
+ }
+
+
+
+/*-----*/
+/*alla p. har sama font-family*/
+klass1 {
+    margin:20px;
+    width:300px;
+    text-align: left;
+    justify-content: right;
+
+}
+/*klass element för sidans första header.
+h1 { 
+    margin:0px 20px ;
+    width:250px;
+    padding: 20px;
+    text-align: left;
+    color:white;
+}
+*/
